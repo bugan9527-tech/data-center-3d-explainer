@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# 二进制资产不要走文本 diff
+*.blend binary
+*.blend1 binary
+*.glb binary
+*.png binary
+*.jpg binary
+*.zip binary
+*.mp4 binary

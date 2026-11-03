@@ -1,0 +1,37 @@
+{
+  "name": "data-center-3d-explainer",
+  "description": "Interactive 3D data-center engineering explainer built with React, react-three-fiber and three.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugan9527-tech/data-center-3d-explainer.git"
+  },
+  "keywords": [
+    "three.js",
+    "react-three-fiber",
+    "data-center",
+    "digital-twin",
+    "3d",
+    "education"
+  ],
+  "type": "module",
+  "private": true,
+  "version": "0.1.0",
+  "dependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "^0.186.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "verify:browser": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/verify-browser.ps1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.1.2",
+    "vite": "8.3.5"
+  }
+}

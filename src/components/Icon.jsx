@@ -1,0 +1,31 @@
+const paths = {
+  chip: <><rect x="6" y="6" width="12" height="12" rx="1" /><path d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4M9 9h6v6H9z" /></>,
+  memory: <><rect x="2" y="6" width="20" height="11" rx="1" /><path d="M5 17v3m4-3v3m6-3v3m4-3v3M5 9h4v5H5zm10 0h4v5h-4z" /></>,
+  board: <><rect x="3" y="2" width="18" height="20" rx="1" /><rect x="6" y="6" width="7" height="7" /><path d="M17 5v9M6 17h12M6 20h12" /></>,
+  fan: <><circle cx="12" cy="12" r="2" /><circle cx="12" cy="12" r="10" /><path d="M12 10c-6-6 2-10 3-4l-1 4m0 2c8-2 7 7 2 5l-3-3m-2 0c-2 8-9 3-4-1l3-1" /></>,
+  network: <><rect x="3" y="3" width="6" height="5" rx="1" /><rect x="2" y="16" width="6" height="5" rx="1" /><rect x="16" y="16" width="6" height="5" rx="1" /><path d="M6 8v4h13v4M5 12v4" /></>,
+  compute: <><rect x="4" y="3" width="16" height="18" rx="2" /><path d="M4 9h16M4 15h16M8 6h.01M8 12h.01M8 18h.01M12 6h5M12 12h5M12 18h5" /></>,
+  storage: <><ellipse cx="12" cy="5" rx="8" ry="3" /><path d="M4 5v7c0 4 16 4 16 0V5M4 12v7c0 4 16 4 16 0v-7" /></>,
+  power: <path d="m13 2-9 12h7l-1 8 10-13h-7l1-7Z" />,
+  cooling: <><path d="M12 2v20M3.3 7l17.4 10M3.3 17 20.7 7M9 4l3 3 3-3M9 20l3-3 3 3M3 10l4-1-1-4M18 19l-1-4 4-1M3 14l4 1-1 4M18 5l-1 4 4 1" /></>,
+  monitoring: <><rect x="3" y="4" width="18" height="14" rx="2" /><path d="M8 22h8M12 18v4M5 12h4l2-5 3 8 2-3h3" /></>,
+  cube: <path d="m12 2 9 5v10l-9 5-9-5V7l9-5ZM3 7l9 5 9-5M12 12v10" />,
+  play: <path d="m8 4 12 8-12 8V4Z" />,
+  pause: <path d="M8 4v16M16 4v16" />,
+  reset: <path d="M3 10a9 9 0 1 1 1 8M3 3v7h7" />,
+  arrow: <path d="M4 12h16m-6-6 6 6-6 6" />,
+  return: <path d="M9 4 3 10l6 6M3 10h11a6 6 0 0 1 0 12" />,
+  user: <><circle cx="12" cy="7" r="4" /><path d="M4 22v-3a8 8 0 0 1 16 0v3" /></>,
+  expand: <path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5M8 8l-5-5M16 8l5-5M8 16l-5 5M16 16l5 5" />,
+  compress: <path d="M4 9h5V4M20 9h-5V4M4 15h5v5M20 15h-5v5" />,
+  check: <path d="m5 12 4 4L20 5" />,
+  info: <><circle cx="12" cy="12" r="9" /><path d="M12 11v6M12 7h.01" /></>,
+  chevron: <path d="m9 5 7 7-7 7" />,
+  layers: <path d="m12 3 10 6-10 6L2 9l10-6ZM3 14l9 5 9-5M3 19l9 5 9-5" />,
+  camera: <><path d="M3 8h4l1.6-2.4h6.8L17 8h4v11.5H3z" /><circle cx="12" cy="13.5" r="3.4" /></>,
+  safety: <><path d="M12 2.5 4.5 5.6v6.1c0 4.6 3.1 8.4 7.5 9.8 4.4-1.4 7.5-5.2 7.5-9.8V5.6L12 2.5Z" /><path d="m8.8 11.8 2.4 2.4 4.2-4.4" /></>,
+  backup: <><ellipse cx="12" cy="5.5" rx="7.5" ry="2.8" /><path d="M4.5 5.5v5.5c0 1.6 3.4 2.8 7.5 2.8s7.5-1.2 7.5-2.8V5.5" /><path d="M12 14v7m-3.2-3.2L12 21l3.2-3.2" /></>,
+};
+export default function Icon({ name, size = 20, className = '' }) {
+  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">{paths[name] || paths.cube}</svg>;
+}

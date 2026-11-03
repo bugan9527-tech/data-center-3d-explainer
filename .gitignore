@@ -1,0 +1,21 @@
+node_modules/
+dist/
+work/
+
+# 回归产物与截图（体积大，不进仓库）
+outputs/
+.screenshots/
+.playwright-cli/
+
+# 本机工具与工作记录
+.workbuddy/
+.npmrc
+
+.env
+.env.*
+!.env.example
+*.log
+*.blend1
+*.blend2
+.DS_Store
+Thumbs.db
