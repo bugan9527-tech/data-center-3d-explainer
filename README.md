@@ -6,6 +6,10 @@
 
 **Interactive 3D data-center explainer** — 用可旋转的三维机房，解释工程里各个部分的职责、输入输出与协作过程。九台原创 Blender 机柜、八个可点选的系统、一条 11 阶段的请求流程，以及供电／制冷的持续支撑演示。
 
+> **想照着做一个别的题材（计算机组成原理、化工工艺、农业种植……）？**
+> 先读根目录的 **[PIPELINE.md](PIPELINE.md)** —— 一套不绑定题材的九阶段制作流程；
+> 再读 **[docs/BUILD_STEPS.md](docs/BUILD_STEPS.md)** —— 这套流程在本项目上的具体九步、十个坑和复刻检查表。
+
 ![总览](docs/screenshots/twin-hud.png)
 
 | 逐件拆解 | 消防与安防 |
@@ -34,9 +38,9 @@ Windows 用户也可以双击 `start-dev.cmd`。仓库内的 `.npmrc` 只设置�
 
 ## 文档
 
+- **[通用制作流程](PIPELINE.md)**（根目录）：3D 科技可视化项目的九阶段方法，可套用到其他题材。
 - [文档索引](docs/README.md)：现行文档、归档边界与文档约定。
 - [关键制作步骤](docs/BUILD_STEPS.md)：九个步骤、十个坑与复刻检查表。
-- [通用制作流程](docs/PIPELINE.md)：3D 科技可视化项目的九阶段方法，可套用到其他题材。
 - [模型与素材规范](docs/ASSET_GUIDE.md)：GLB 节点契约、Blender 脚本与资产统计。
 - [工程定位与范围](docs/PROJECT_PLAN.md)：讲什么、不做什么。
 
@@ -148,7 +152,7 @@ Windows 用户也可以双击 `start-dev.cmd`。仓库内的 `.npmrc` 只设置�
 | `outputs/archive/` | 历史阶段截图，可整体删除或移出仓库 |
 | `docs/README.md` | 文档索引：现行文档、归档边界与文档约定 |
 | `docs/BUILD_STEPS.md` | 关键制作步骤：数据→灰模→相机→时间源→路径→拆解→界面→断言→收口 |
-| `docs/PIPELINE.md` | 3D 科技可视化项目的通用制作流程与题材迁移方法 |
+| `PIPELINE.md` | 根目录：3D 科技可视化项目的通用制作流程与题材迁移方法 |
 | `docs/concepts/` | 目标效果概念图，不作为应用界面的背景替代品 |
 | `docs/archive/` | 过程文档归档（方案、验证记录、提示词原文、任务书） |
 | `docs/` | 项目范围、模型规范与数字孪生改造记录 |
