@@ -16,6 +16,7 @@
 | [`TWIN_BATCH_D_SPEC.md`](TWIN_BATCH_D_SPEC.md) | 备份与容灾：B01 为何独立成柜 | 改备份柜或加系统 |
 | [`TWIN_UPGRADE_REVIEW.md`](TWIN_UPGRADE_REVIEW.md) | 需求书逐项对账、"模拟数据 + 逐处标注"的决策来源 | 讨论要不要加指标、告警、图层 |
 | [`BUILD_STEPS.md`](BUILD_STEPS.md) | 做出这个项目的九个关键步骤、十个坑、复刻检查表 | 想照着做一遍的时候 |
+| [`PIPELINE.md`](PIPELINE.md) | 3D 科技可视化项目的通用制作流程（九阶段方法，不绑定题材） | 换领域立项时 |
 | [`concepts/`](concepts/) | 视觉方向参考图 | 只看方向，不作为功能证据 |
 
 ## 历史归档 `docs/archive/`

@@ -36,6 +36,7 @@ Windows 用户也可以双击 `start-dev.cmd`。仓库内的 `.npmrc` 只设置�
 
 - [文档索引](docs/README.md)：现行文档、归档边界与文档约定。
 - [关键制作步骤](docs/BUILD_STEPS.md)：九个步骤、十个坑与复刻检查表。
+- [通用制作流程](docs/PIPELINE.md)：3D 科技可视化项目的九阶段方法，可套用到其他题材。
 - [模型与素材规范](docs/ASSET_GUIDE.md)：GLB 节点契约、Blender 脚本与资产统计。
 - [工程定位与范围](docs/PROJECT_PLAN.md)：讲什么、不做什么。
 
@@ -147,6 +148,7 @@ Windows 用户也可以双击 `start-dev.cmd`。仓库内的 `.npmrc` 只设置�
 | `outputs/archive/` | 历史阶段截图，可整体删除或移出仓库 |
 | `docs/README.md` | 文档索引：现行文档、归档边界与文档约定 |
 | `docs/BUILD_STEPS.md` | 关键制作步骤：数据→灰模→相机→时间源→路径→拆解→界面→断言→收口 |
+| `docs/PIPELINE.md` | 3D 科技可视化项目的通用制作流程与题材迁移方法 |
 | `docs/concepts/` | 目标效果概念图，不作为应用界面的背景替代品 |
 | `docs/archive/` | 过程文档归档（方案、验证记录、提示词原文、任务书） |
 | `docs/` | 项目范围、模型规范与数字孪生改造记录 |
